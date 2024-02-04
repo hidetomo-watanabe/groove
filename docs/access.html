@@ -2,10 +2,19 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>飲食店向け 無料ホームページテンプレート tp_cafe17</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>カフェ向け 無料ホームページテンプレート tp_cafe9</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slide.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
@@ -13,78 +22,103 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Sample Cafe"></a></h1>
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE CAFE"></a></h1>
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="menu.html">MENU</a></li>
+<li class="current"><a href="access.html">ACCESS</a></li>
+</ul>
+</nav>
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="menu.html">MENU</a></li>
+<li class="current"><a href="access.html">ACCESS</a></li>
+</ul>
+</nav>
 </header>
 
-<main>
+<div id="contents">
+
+<div id="main">
 
 <section>
 
-<h2>Access<span>アクセス</span></h2>
+<h2>アクセス</h2>
 
 <table class="ta1">
-<caption>大見出しが必要ならここを使います</caption>
 <tr>
 <th>店名</th>
-<td>ここに説明など入れて下さい。サンプルテキスト。</td>
+<td>サンプルテキスト。</td>
 </tr>
 <tr>
 <th>所在地</th>
-<td>Google Mapで地図を埋め込みたい場合は<a href="https://template-party.com/file/pickup_googlemap.html">マニュアル</a>をご覧下さい。<br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0448418561778!2d139.74267721573196!3d35.675897837870934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b89b2e1c8b1%3A0x59a123e3d5ac5ab6!2z44CSMTAwLTAwMTQg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65rC455Sw55S677yR5LiB55uu77yX4oiS77yR!5e0!3m2!1sja!2sjp!4v1545036128899" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</td>
+<td>サンプルテキスト。</td>
 </tr>
 <tr>
-<th>電話番号</th>
-<td>ここに説明など入れて下さい。サンプルテキスト。</td>
+<th>TEL</th>
+<td>サンプルテキスト。</td>
 </tr>
 <tr>
-<th>サイトURL</th>
-<td>ここに説明など入れて下さい。サンプルテキスト。</td>
+<th>MAP</th>
+<td><a href="http://template-party.com/file/pickup_googlemap.html" target="_blank">GoogleMapで地図を貼り付けたい</a>人は解説がありますのでご覧下さい。</td>
+</tr>
+<tr>
+<th>駐車場</th>
+<td>サンプルテキスト。</td>
+</tr>
+<tr>
+<th>見出し</th>
+<td>サンプルテキスト。</td>
+</tr>
+<tr>
+<th>見出し</th>
+<td>サンプルテキスト。</td>
+</tr>
+<tr>
+<th>見出し</th>
+<td>サンプルテキスト。</td>
 </tr>
 </table>
 
 </section>
 
-</main>
+</div>
+<!--/main-->
+
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<ul id="footermenu">
+<li><a href="index.html">ホーム</a></li>
+<li><a href="about.html">当サイトについて</a></li>
+<li><a href="menu.html">メニュー</a></li>
+<li><a href="access.html">アクセス</a></li>
+</ul>
+
+</div>
+<!--/contents-->
 
 <footer>
-<ul class="icon">
-<li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
-<li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
-<li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
-<li><a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a></li>
-<li><a href="#"><img src="images/icon_line.png" alt="LINE"></a></li>
-</ul>
-<small>Copyright&copy; <a href="index.html">Sample Cafe</a> All Rights Reserved.</small>
-<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+<small>Copyright&copy; <a href="index.html">SAMPLE CAFE</a> All Rights Reserved.</small>
+<span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
 </footer>
 
 </div>
-<!--/#container-->
+<!--/container-->
 
-<!--メインメニュー-->
-<nav id="menubar">
-<ul>
-<li><a href="index.html">Home<span>ホーム</span></a></li>
-<li><a href="about.html">About<span>お店について</span></a></li>
-<li><a href="menu.html">Cafe Menu<span>メニューのご紹介</span></a></li>
-<li><a href="access.html">Access<span>アクセス</span></a></li>
-</ul>
-</nav>
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+<!--メニューの開閉処理条件設定　520px以下-->
+<script>
+if (OCwindowWidth() <= 520) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
 
-<!--jQueryファイルの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
-
-<!--メニュー開閉用のスクリプト-->
-<div id="menubar_hdr"></div>
-<script src="js/openclose_tp.js"></script>
-
-<!--ページの上部へ戻るボタン-->
-<p class="pagetop"><a href="#">↑</a></p>
 </body>
 </html>
