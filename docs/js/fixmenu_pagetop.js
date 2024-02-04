@@ -23,11 +23,11 @@ function fm_removeClass(e, c)
     e.className = e.className.replace(pattern, "");
 }
 function fm_addEvent(elm,listener,fn){
-	try{
-		elm.addEventListener(listener,fn,false);
-	}catch(e){
-		elm.attachEvent("on"+listener,fn);
-	}
+  try{
+    elm.addEventListener(listener,fn,false);
+  }catch(e){
+    elm.attachEvent("on"+listener,fn);
+  }
 }
 fm_addEvent(window, 'load', function() {
    var offsettop;
