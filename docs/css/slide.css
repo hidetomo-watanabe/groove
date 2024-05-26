@@ -7,33 +7,30 @@
 @keyframes slide1 {
   0% {opacity: 0;}
   10% {opacity: 1;}
-  30% {opacity: 1;}
+  20% {opacity: 1;}
   40% {opacity: 0;}
   100% {opacity: 0;}
 }
 /*２枚目*/
 @keyframes slide2 {
   0% {opacity: 0;}
-  20% {opacity: 0;}
-  30% {opacity: 1;}
-  60% {opacity: 1;}
+  20% {opacity: 1;}
+  50% {opacity: 1;}
   70% {opacity: 0;}
   100% {opacity: 0;}
 }
 /*３枚目*/
 @keyframes slide3 {
   0% {opacity: 0;}
-  50% {opacity: 0;}
-  60% {opacity: 1;}
-  85% {opacity: 1;}
+  50% {opacity: 1;}
+  70% {opacity: 1;}
   95% {opacity: 0;}
   100% {opacity: 0;}
 }
 /*4枚目*/
 @keyframes slide4 {
   0% {opacity: 0;}
-  50% {opacity: 0;}
-  60% {opacity: 1;}
+  70% {opacity: 1;}
   85% {opacity: 1;}
   95% {opacity: 0;}
   100% {opacity: 0;}
@@ -51,9 +48,9 @@
 #mainimg, .slide0, .slide1, .slide2, .slide3, .slide4 {
   border-radius: 10px;  /*角丸のサイズ*/
 }
-/*３枚画像の共通設定*/
+/*4枚画像の共通設定*/
 .slide1,.slide2,.slide3,.slide4 {
-  animation-duration: 15s;  /*実行する時間。「s」は秒の事。*/
+  animation-duration: 20s;  /*実行する時間。「s」は秒の事。*/
   animation-iteration-count:infinite;    /*実行する回数。「infinite」は無限に繰り返す意味。*/
   position: absolute;left:0px;top:0px;width: 100%;height: auto;
   animation-fill-mode: both;
